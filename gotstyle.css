@@ -1,0 +1,114 @@
+
+
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+    color: #8cc63f;
+  }     
+
+h2 {
+    color: #336600;
+    text-align: center;
+}  
+
+h3 {
+    color: #336600
+}
+
+h4 {
+  color: darkgrey
+}
+
+h5 {
+  color: #8cc63f; font-weight: bolder
+}  
+
+h6 {
+  color: #336600;
+  text-align: center;
+}
+
+h7 {
+  color: #336600;
+
+}
+
+h8 {
+  color: #336600;
+  text-align:left
+}
+
+h9 {
+  color: white;
+
+}
+
+h10 {
+  color:darkgreen;
+  text-align: left;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 6%;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centered ish text */
+.centeredish {
+  position: absolute;
+  top: 55%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+}
+
